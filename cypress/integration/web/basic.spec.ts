@@ -12,6 +12,8 @@ describe('start with basics', () => {
         cy.visit('/');
         basicPage.validateGoogleLogo();
         basicPage.validateGoogleSearchTab();
-        
+        cy.visit('/');
+        basicPage.validateGoogleLogo();
+        basicPage.validateGoogleSearchTab();
     })
 })
